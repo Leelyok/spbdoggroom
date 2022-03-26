@@ -10,7 +10,7 @@ html {
 
 img { max-width: 100%;}
 
-/*  Temporary Styles 
+/*  Temporary Styles */
 
  * {
     padding: 0.5rem;
@@ -26,7 +26,6 @@ body {
     border: 2px solid rgb(179, 84, 84);
 }
 
-*/
 
 
 /* Re-usable Utiity Classes  */
@@ -68,12 +67,12 @@ body {
 
 
 .bg-light    { background-color: #f2eee9;  }
-.bg-featured { background-color: #ED974C;  }
+.bg-featured { background-color: #b88fda;  }
 .bg-dark     { background-color: #24282B;  }
 
 .text-light { color: white; } 
 .text-featured { color: #f59186;}
-.text-orange  {  color: #ED974C;}
+.text-purple  {  color: #56297c;}
 
 
 .left   { text-align: left; }
@@ -150,9 +149,13 @@ a {
     text-decoration: none;
 }
 
+nav a {
+    padding: 0% 4%;
+}
+
 
 .button {
-    color: #E57918;
+    color: #56297c;
     font-size: 1.1rem;
     border: 1px solid #f59186;
     background-color: #FDF4EC;
@@ -163,7 +166,7 @@ a {
 }
 
 .button:hover {
-    background-color: #ed974c;
+    background-color: #56297c;
     color: #fff; 
     border: 1px solid #fff;
     }
@@ -176,9 +179,7 @@ a {
  .emphasis-button {
     border: 2px solid;
     margin-left: 0.5rem;
-  }
-  
-              
+  }     
             
 
 .emphasis { 
@@ -187,7 +188,7 @@ a {
     text-transform: uppercase;
     letter-spacing: 0.08rem;
     word-spacing: 0.2rem;
-    color: #D56F15;
+    color: #56297c;
 }
 
 .upper { 
@@ -338,7 +339,7 @@ svg.mask {
     fill: #ed974c;
   }
 .top {
-    top: -1px;
+    top: -9px;
     bottom: auto;
     left: 0;
 }
@@ -498,7 +499,7 @@ polygon { stroke-width: 2px; }
     }
 
     .padded-20 { padding: 5%;}
-    .banner    { min-height: 90vh;}
+    .banner    { min-height: 100vh;}
     
 
     .quote-icon {  font-size: 2.5rem;  }
