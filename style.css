@@ -10,7 +10,7 @@ html {
 
 img { max-width: 100%;}
 
-/*  Temporary Styles */
+/*  Temporary Styles 
 
  * {
     padding: 0.5rem;
@@ -25,6 +25,8 @@ body {
  h1,h2,h3,h4,h5,h6,p, a {
     border: 2px solid rgb(179, 84, 84);
 }
+
+*/
 
 
 
@@ -54,6 +56,7 @@ body {
 .padded-l-0 { padding-left: 0; }
 .padded-r-0 { padding-right: 0; }
 .padded-t-0 { padding-top: 0; }
+.padded-t10  { padding-top: 10%; }
 
 .padded-1,
 .grid.padded-1  { padding: 1rem;  }
@@ -89,12 +92,12 @@ a.bg-image {
 /* General typography & universal styles  */
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Nunito', sans-serif;
     color: #524646;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Nunito', sans-serif;
     line-height: 1.2;
     margin-bottom: 1rem;
     font-weight: normal;
@@ -150,19 +153,20 @@ a {
 }
 
 nav a {
-    padding: 0% 4%;
+    padding: 0% 2.5%;
 }
 
 
 .button {
     color: #56297c;
     font-size: 1.1rem;
-    border: 1px solid #f59186;
-    background-color: #FDF4EC;
+    border: 1px solid #fff;
+    background-color: #Fff;
     /*border-radius: 0.5rem;*/
     text-decoration: none;
     padding: 1rem 1.5rem;
     display: inline-block;
+    transition: all 0.5s;
 }
 
 .button:hover {
@@ -172,9 +176,9 @@ nav a {
     }
 
 .button-b {
-    padding: 0.1rem;
+    padding: 0.5rem;
     display: inline-block;
-    border-bottom: 1px solid #f59186;
+    border-bottom: 1px solid black;
 }  
  .emphasis-button {
     border: 2px solid;
@@ -211,6 +215,12 @@ nav a {
     opacity: 0.6;
     margin: 1rem 0;
 }
+
+.fa-solid, .fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 2rem;
+  }
 
 /*   cards services hover   */
               
@@ -310,7 +320,7 @@ header img {   max-width: 20%;  }
 .bg-pos-l { background-position: left; }
 .bg-pos-r { background-position: right; }
 
-
+.width80 {  width: 80%;}
 /*Polygon and svg */
 
 section {  position: relative; }
@@ -351,8 +361,8 @@ polygon { stroke-width: 2px; }
     position:absolute;
     width:325px;
     height:450px;
-    background-color:#fbebdb;
-    border:1px solid #fbebdb;
+    background-color:#ffe9f4;
+    border:1px solid #ffe9f4;
     z-index:-1
    }
 .orange-box2 {
@@ -360,8 +370,8 @@ polygon { stroke-width: 2px; }
     position:absolute;
     width:350px;
     height:400px;
-    background-color:#fbebdb;
-    border:1px solid #fbebdb;
+    background-color:#ffe9f4;
+    border:1px solid #ffe9f4;
     z-index:-1
    }
 
@@ -370,8 +380,8 @@ polygon { stroke-width: 2px; }
     position:absolute;
     width:350px;
     height:400px;
-    background-color:#fbebdb;
-    border:1px solid #fbebdb;
+    background-color:#ffe9f4;
+    border:1px solid #ffe9f4;
     z-index:-1
 }
 
@@ -379,7 +389,7 @@ polygon { stroke-width: 2px; }
 
 .mobile-menu {
     display: none; 
-    background-color: #faf4ed;
+    background-color: #ffe9f4;
     padding: 5%;
     position: fixed; 
     top:0;
