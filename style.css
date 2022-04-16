@@ -333,6 +333,8 @@ header img {   max-width: 20%;  }
 .bg-pos-r { background-position: right; }
 
 .width80 {  width: 80%;}
+.width60 {  width: 60%;}
+.width50 {  width: 50%;}
 /*Polygon and svg */
 
 section {  position: relative; }
