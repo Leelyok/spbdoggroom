@@ -289,7 +289,7 @@ footer {
 
 footer p   {    font-size: 0.8rem;}
 
-footer img {   max-width: 40%;  }
+footer img {   max-width: 25%;  }
 
 header img {   max-width: 20%;  }
 
@@ -379,7 +379,7 @@ svg.mask {
 polygon { stroke-width: 2px; }
 
 .orange-box1 {
-    margin:-10% 0 0 2%;
+    margin:-10% 0 0 43%;
     position:absolute;
     width:325px;
     height:450px;
