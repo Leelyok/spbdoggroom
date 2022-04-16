@@ -67,6 +67,11 @@ body {
 .margin-b-0 { margin-bottom: 0; }
 .margin     { margin: 5%;       }
 .margin-t   { margin-top: 5%;   }
+.margin-r   { margin-right: 5%;   }
+.margin-b   { margin-bottom: 5%;   }
+.margin-l   { margin-left: 5%;   }
+
+.margin-r1   { margin-right: 1%;   }
 
 
 .bg-light    { background-color: #f2eee9;  }
@@ -318,6 +323,8 @@ header img {   max-width: 20%;  }
 .square { padding-bottom: 100%; }
 .landscape { padding-bottom: 66%; }
 .landscape-wide { padding-bottom: 56%; }
+
+.fixed {    background-attachment: fixed;  }
 
 /* Background Position */
 .bg-pos-t { background-position: top; }
