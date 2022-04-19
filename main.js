@@ -18,7 +18,7 @@ $('.hamburger-button').click(function(){
 
 
   $('.testimon-slider-container').slick({
-    autoplay: true,        // Do we want it to autoplay? true or false
+    autoplay: false,        // Do we want it to autoplay? true or false
     autoplaySpeed: 3000,   // How long between each slide when autoplaying
     speed: 500,            // How fast is the transition 
     arrows: false,          // Do you want to show arrows to trigger each slide
@@ -31,7 +31,7 @@ $('.hamburger-button').click(function(){
   });
   
   $(".testimonial-slider-container").slick({
-      autoplay: true,
+      autoplay: false,
       autoplaySpeed: 2e3,
       speed: 500,
       arrows: true,
