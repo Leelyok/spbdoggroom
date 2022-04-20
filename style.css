@@ -132,8 +132,9 @@ h3 {font-size: 1.8rem;}
 p {
     line-height: 1.5;
     font-size: 1.05rem;
-    margin-bottom: 0.8rem;
-}
+    font-weight: 300;
+    color: #000;
+    }
 
 ul {margin-left: 1rem;}
 li {
@@ -219,8 +220,8 @@ nav a {
     border: 2px solid;
     margin-left: 0.5rem;
   }     
-.border-white {
-    border: 3px solid #fff;
+.border-purple {
+    border: 3px solid #b88fda; 
     padding: 0.8rem 0.6rem;
 }            
 
