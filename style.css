@@ -235,7 +235,6 @@ nav a {
 
 .upper { 
     text-transform: uppercase;
-    font-weight: bold;
     letter-spacing: 0.08rem;
 }
 
@@ -258,6 +257,7 @@ nav a {
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
     font-size: 2rem;
+    color: rgb(60,60,60);
   }
 
 
@@ -676,7 +676,6 @@ polygon { stroke-width: 2px; }
     .sm-block { display: block;}
     .text-center-sm { text-align: center;}
     .text-big  { font-size: 2rem;}
-    .text-bold  { font-size: 1.3rem; }
     h2 { font-size: 1.4rem;}
     h3 { font-size: 1.3rem;}
     p, li  {  font-size: 0.9rem;}
