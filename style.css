@@ -367,6 +367,18 @@ header nav a {
     background-position: center;
     background-color: #F2EEE9;
     background-repeat: no-repeat;
+    
+}
+
+.bg-print {
+  background-image: url('/images/print.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 40%;
+  min-height: 100vh;
+  margin-top: -40rem;
+  z-index: 0;
 }
 
 .bg-banner {
