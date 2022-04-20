@@ -373,6 +373,7 @@ header nav a {
     background-position: 50% 25%;
     margin-top: -10rem;
     min-height: 110vh;
+    background-attachment: fixed;
 }
 
 .bg-banner2 {
@@ -658,9 +659,10 @@ polygon { stroke-width: 2px; }
 
 @media(max-width: 64em)	{
     .mob-hide { display: none; }
+    .mob-show { display: block; }  
+    .hide-md  { display: none; } 
     .flex-flip-sm { flex-direction: column-reverse; }
     .right  { text-align: left; }
-    h1 { font-size: 2.5rem;}
     h2 { font-size: 1.9rem;}
     h3 { font-size: 1.5rem;}
     p, li  {  font-size: 1rem;}
@@ -668,18 +670,18 @@ polygon { stroke-width: 2px; }
 }
     
 @media(max-width: 48em)	{
-   
-    .mob-show { display: block; }  
+    .hide-sm  { display: none; }
     .text-xxl { font-size: 6rem;}
     .text-xl { font-size: 3.5rem;}
     .sm-block { display: block;}
     .text-center-sm { text-align: center;}
     .text-big  { font-size: 2rem;}
     .text-bold  { font-size: 1.3rem; }
-    h1 { font-size: 2rem;}
     h2 { font-size: 1.4rem;}
     h3 { font-size: 1.3rem;}
     p, li  {  font-size: 0.9rem;}
+
+    .slider-item p  {  font-size: 0.9rem;}
 
     header img {   max-width: 30%;  }
     .icons img {
@@ -690,6 +692,7 @@ polygon { stroke-width: 2px; }
     }
 
     .padded-20 { padding: 5%;}
+    .sm-padded-t { padding-top: 5%;}
     .banner    { min-height: 100vh;}
     
 
@@ -746,6 +749,17 @@ polygon { stroke-width: 2px; }
         border:1px solid #fbebdb;
         z-index:-1
     }
+
+    .bg-banner {
+      background-image: url('/images/Dog-Background-Wallpapers.jpg');
+      background-size: cover;
+      background-position: top;
+      min-height: 65vh;
+      color: #000;
+      background-attachment: initial;
+      margin-top: 0;
+    }
+
 }
 
 /*  Gridlex extra small media query - Max 576 px _xs*/
