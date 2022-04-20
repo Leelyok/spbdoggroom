@@ -691,6 +691,10 @@ polygon { stroke-width: 2px; }
         margin-bottom: 0;
     }
 
+    .fa-solid, .fas {
+      font-size: 1.5rem;
+    }
+
     .padded-20 { padding: 5%;}
     .sm-padded-t { padding-top: 5%;}
     .banner    { min-height: 100vh;}
