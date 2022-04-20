@@ -59,6 +59,7 @@ body {
 .padded-r-0 { padding-right: 0; }
 .padded-t-0 { padding-top: 0; }
 .padded-t10  { padding-top: 10%; }
+.padded-t15  { padding-top: 15%; }
 
 .padded-ntb  {
   padding-left: 5%;
@@ -85,7 +86,7 @@ body {
 .margin-r2   { margin-right: 2%;   }
 .margin-t1   { margin-top: 1rem;   }
 
-
+.margin-t-m7 {  margin-top: -7rem; }
 .bg-light    { background-color: #f2eee9;  }
 .bg-featured { background-color: #b88fda;  }
 .bg-dark     { background-color: #24282B;  }
@@ -172,7 +173,7 @@ p:last-child {
   letter-spacing: .15rem;
 }
 
-.lower-footer {
+.lower {
   font-family: Montserrat,serif;
   font-size: .9rem;
   letter-spacing: .05rem;
@@ -258,6 +259,21 @@ nav a {
     font-weight: 900;
     font-size: 2rem;
   }
+
+
+  .arrow-img {
+    object-fit: contain;
+    object-position: center;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+  }
+  
+  svg { 
+    max-width: 10%;
+    color: #fff;  }
+  
+  .small-img {  max-width: 25%; }
 
 /*   cards services hover   */
               
@@ -356,7 +372,7 @@ header nav a {
     background-image: url('/images/Dog-Background-Wallpapers.jpg');
     background-position: 50% 25%;
     margin-top: -10rem;
-    min-height: 105vh;
+    min-height: 110vh;
 }
 
 .bg-banner2 {
