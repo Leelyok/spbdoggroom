@@ -43,7 +43,9 @@ body {
 
 
 .padded    { padding: 5%;    }
-.padded-t  { padding-top: 3%;    }
+.padded-t  { padding-top: 5%;    }
+.padded-t1  { padding-top: 1%;    }
+.padded-t2  { padding-top: 2%;    }
 .padded-t10  { padding-top: 10%;    }
 .padded-10    { padding: 10%;    }
 .padded-20    { 
@@ -88,7 +90,7 @@ body {
 .bg-featured { background-color: #b88fda;  }
 .bg-dark     { background-color: #24282B;  }
 
-.text-light { color: white; } 
+.text-white { color: white; } 
 .text-black { color: black; } 
 .text-featured { color: #f59186;}
 .text-purple  {  color: #56297c;}
@@ -164,7 +166,18 @@ p:last-child {
     line-height: 1.6;
 }
 
-.text-white { color: #fff;}
+.sub-title-lower {
+  font-family: Montserrat,serif;
+  font-size: .9rem;
+  letter-spacing: .15rem;
+}
+
+.lower-footer {
+  font-family: Montserrat,serif;
+  font-size: .9rem;
+  letter-spacing: .05rem;
+}
+
 
 a {
     color: inherit;
@@ -311,13 +324,9 @@ header h1 {
   padding: 0 .5rem 0 .5rem;
   color: #000;
   letter-spacing: .2rem;
+  line-height: 0.2;
 }
 
-
-.inline a, header nav a {
-  display: inline-block;
-  padding: 1rem;
-}
 header nav a {
   text-decoration: none;
   color: #000;
@@ -327,6 +336,11 @@ header nav a {
   font-size: .8rem;
   font-weight: 400;
   padding: 0;
+}
+
+.inline a, header nav a {
+  display: inline-block;
+  padding: 1rem;
 }
 
 /* Images & Background Images */
@@ -447,6 +461,16 @@ polygon { stroke-width: 2px; }
     background-color:#ffe9f4;
     border:1px solid #ffe9f4;
     z-index:-1
+}
+
+.orange-box4 {
+  margin:-7% 0 0 35%;
+  position:absolute;
+  width:350px;
+  height:400px;
+  background-color:#ffe9f4;
+  border:1px solid #ffe9f4;
+  z-index:-1
 }
 
 /*  Mobile Menu Styles  */
@@ -577,8 +601,8 @@ polygon { stroke-width: 2px; }
   
   .slider-item p {
     text-align: center;
-    font-family: 'Source Serif Pro', serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 300;
   }
   
   
