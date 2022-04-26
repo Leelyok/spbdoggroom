@@ -190,8 +190,13 @@ nav a {
     padding: 0% 2.5%;
 }
 
+.relative {
+  position: relative;
+}
 
-
+.z-1 {
+  z-index: 1;
+}
 
 .button {
     color: #56297c;
@@ -375,10 +380,10 @@ header nav a {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  max-width: 40%;
-  min-height: 100vh;
-  margin-top: -40rem;
-  z-index: 0;
+  max-width: 35%;
+  min-height: 80vh;
+  margin-top: -30rem;
+  right: -50%;
 }
 
 .bg-banner {
@@ -392,6 +397,7 @@ header nav a {
 .bg-banner2 {
   background-image: url('/images/grooming-banner.jpg');
   background-position: 50% 50%;
+  margin-top: -7rem;
 }
 
 
@@ -716,7 +722,6 @@ polygon { stroke-width: 2px; }
     
 
     .quote-icon {  font-size: 2.5rem;  }
-    .text-sm { font-size: 0.8rem;}
 
     .mob-horisont-scroll {
         overflow-x: auto;
@@ -745,8 +750,6 @@ polygon { stroke-width: 2px; }
         position:absolute;
         width:225px;
         height:250px;
-        background-color:#fbebdb;
-        border:1px solid #fbebdb;
         z-index:-1
        }
     .orange-box2 {
@@ -754,8 +757,6 @@ polygon { stroke-width: 2px; }
         position:absolute;
         width:250px;
         height:350px;
-        background-color:#fbebdb;
-        border:1px solid #fbebdb;
         z-index:-1
        }
     
@@ -764,8 +765,6 @@ polygon { stroke-width: 2px; }
         position:absolute;
         width:250px;
         height:350px;
-        background-color:#fbebdb;
-        border:1px solid #fbebdb;
         z-index:-1
     }
 
