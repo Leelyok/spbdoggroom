@@ -351,6 +351,7 @@ header a {
 footer {
     padding-bottom: 0.5rem;
     color: rgb(145, 140, 140);
+    font-family: 'Roboto';
     font-weight: 300;
 }
 
@@ -777,7 +778,7 @@ color: black
     .sm-tall-60 { min-height: 60vh; }
     h2 { font-size: 1.9rem;}
     h3 { font-size: 1.5rem;}
-    p, li  {  font-size: 1rem;}
+    p, li  {  font-size: 1.1rem;}
     footer img {   max-width: 25%;  }
     .mob-mt {
       margin-top: 2rem;
@@ -805,9 +806,6 @@ color: black
     .text-big  { font-size: 2rem;}
     h2 { font-size: 1.4rem;}
     h3 { font-size: 1.3rem;}
-    p, li  {  font-size: 0.9rem;}
-
-    .slider-item p  {  font-size: 0.9rem;}
 
     header img {   max-width: 30%;  }
     .icons img {
