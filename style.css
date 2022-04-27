@@ -294,7 +294,7 @@ nav a {
     color: rgba(255, 255, 255, 1);
     background-color: rgba(60, 60, 60, 0.4);
     /* you only need to use relative + absolute if you want to determine the exact aspect ratio of the container */
-    transition: all 0.3s;
+    transition: all 1s;
   }
   
   .hover-overlay:hover {
