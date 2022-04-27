@@ -1,13 +1,22 @@
-$('.hamburger-button').click(function(){
-    $('.mobile-menu').fadeToggle(100);
-    $(this).toggleClass('active');
+// Document . ready
+$(document).ready(function() {
+
+  $(".menu-mobile").click(function(){
+    $(".sub-menu").toggle();
   });
 
-  $('.mobile-menu a').click(function(){
-    $('.mobile-menu').fadeOut(100);
-    $(".hamburger-button").removeClass('active');
+  $(".burger-button").click(function(){
+    $(".burger-button").toggleClass("active");
+    $(".burger-menu").toggleClass("active");
   });
 
+
+$(".burger-menu").click(function(){
+    $(".burger-button").toggleClass("active");
+    $(".burger-menu").toggleClass("active");
+  });
+
+});
 
 
 
