@@ -130,6 +130,7 @@ h2 {font-size: 2.5rem;}
 h3 {font-size: 1.8rem;}
 
 p {
+    font-family: 'roboto';
     line-height: 1.5;
     font-size: 1.05rem;
     font-weight: 300;
@@ -166,6 +167,12 @@ p:last-child {
     font-size: 4rem;
     font-weight: 600;
     line-height: 1.6;
+}
+.sub-title {
+  font-family: Montserrat,serif;
+  font-size: 1.4rem;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
 }
 
 .sub-title-lower {
@@ -208,6 +215,20 @@ nav a {
     padding: 1rem 1.5rem;
     display: inline-block;
     transition: all 0.5s;
+}
+
+.button-solid {
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff5d7;
+  background-color: #b88fda; ;
+  padding: .6rem 2rem;
+  margin-top: 1rem;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: .8rem;
+  font-weight: 300;
+  letter-spacing: .1rem;
 }
 
 .button:hover {
@@ -398,6 +419,16 @@ header nav a {
   background-image: url('/images/grooming-banner.jpg');
   background-position: 50% 50%;
   margin-top: -7rem;
+  background-attachment: fixed;
+}
+
+.bg-services3 {
+  background-image: url('/images/Dogtopia_Spa-Services.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 70vh;
+  background-attachment: fixed;
+  border: 10px solid #fff;
 }
 
 
@@ -415,7 +446,9 @@ header nav a {
     display:inline-block;
     padding: 1rem;
   }
-
+  .hide-3 {
+    display: none;
+  }
 
   /* Aspect Ratio  */
 .portrait-tall { padding-bottom: 175%; }
@@ -683,12 +716,20 @@ polygon { stroke-width: 2px; }
     .mob-hide { display: none; }
     .mob-show { display: block; }  
     .hide-md  { display: none; } 
+    .hide-3   { display: flex;  }
     .flex-flip-sm { flex-direction: column-reverse; }
     .right  { text-align: left; }
+    .sm-tall-60 { min-height: 60vh; }
     h2 { font-size: 1.9rem;}
     h3 { font-size: 1.5rem;}
     p, li  {  font-size: 1rem;}
     footer img {   max-width: 25%;  }
+    .bg-banner2 {
+      background-image: url('/images/grooming-banner.jpg');
+      background-position: 40% 50%;
+      margin-top: -7rem;
+      background-attachment: initial;
+    }
 }
     
 @media(max-width: 48em)	{
@@ -716,6 +757,9 @@ polygon { stroke-width: 2px; }
       font-size: 1.5rem;
     }
 
+    .border-all {
+      border: 10px solid #fff;
+    }
     .padded-20 { padding: 5%;}
     .sm-padded-t { padding-top: 5%;}
     .banner    { min-height: 100vh;}
