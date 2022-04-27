@@ -724,6 +724,9 @@ polygon { stroke-width: 2px; }
     h3 { font-size: 1.5rem;}
     p, li  {  font-size: 1rem;}
     footer img {   max-width: 25%;  }
+    .mob-mt {
+      margin-top: 2rem;
+    }
     .bg-banner2 {
       background-image: url('/images/grooming-banner.jpg');
       background-position: 40% 50%;
