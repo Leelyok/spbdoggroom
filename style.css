@@ -431,6 +431,15 @@ header nav a {
   border: 10px solid #fff;
 }
 
+.bg-services4 {
+  background-image: url('/images/brushes.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 70vh;
+  background-attachment: fixed;
+  border: 10px solid #fff;
+}
+
 
 .shape-teardrop {
     border-radius: 20rem;
